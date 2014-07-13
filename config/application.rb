@@ -9,6 +9,8 @@ Bundler.require(*Rails.groups)
 module DemoApp
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
+    config.secret_key_base = '72aecb3f275ae0928f4e0938091f1e34e94e5485ec0214d2d5d61b1d74d06048b30d8d8d81b
+f9d20cac901a37dc1262a8feff7fa8fda3a4a37f6cc2e7041e74f'
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
